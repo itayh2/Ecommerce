@@ -8,8 +8,9 @@ csv_files = [
     ('orders.csv', 'orders'),
     ('sellers.csv', 'sellers'),
     ('products.csv', 'products'),
-    ('delivery.csv', 'delivery'),
-    ('payments.csv', 'payments')  # Added payments.csv for specific handling
+    ('geolocation.csv', 'geolocation'),
+    ('payments.csv', 'payments'),
+    ('order_items.csv', 'order_items'),  # Added payments.csv for specific handling
 ]
 
 # Connect to the MySQL database
